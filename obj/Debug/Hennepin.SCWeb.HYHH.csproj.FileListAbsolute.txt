@@ -1,0 +1,8 @@
+C:\Users\cheinle\source\repos\HennepinCountyWebTeam\hyhh\obj\Debug\Hennepin.SCWeb.HYHH.csprojAssemblyReference.cache
+C:\Users\cheinle\source\repos\HennepinCountyWebTeam\hyhh\obj\Debug\Hennepin.SCWeb.HYHH.csproj.CoreCompileInputs.cache
+C:\Users\cheinle\source\repos\HennepinCountyWebTeam\hyhh\bin\Hennepin.SCWeb.HYHH.dll.config
+C:\Users\cheinle\source\repos\HennepinCountyWebTeam\hyhh\bin\Hennepin.SCWeb.HYHH.dll
+C:\Users\cheinle\source\repos\HennepinCountyWebTeam\hyhh\bin\Hennepin.SCWeb.HYHH.pdb
+C:\Users\cheinle\source\repos\HennepinCountyWebTeam\hyhh\obj\Debug\Hennepin.SCWeb.HYHH.csproj.CopyComplete
+C:\Users\cheinle\source\repos\HennepinCountyWebTeam\hyhh\obj\Debug\Hennepin.SCWeb.HYHH.dll
+C:\Users\cheinle\source\repos\HennepinCountyWebTeam\hyhh\obj\Debug\Hennepin.SCWeb.HYHH.pdb

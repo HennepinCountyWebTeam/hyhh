@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{60902223-4C2E-499B-BD4F-EBF7B7650661}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hennepin.SCWeb.HYHH</RootNamespace>
+    <AssemblyName>Hennepin.SCWeb.HYHH</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Sitecore.Kernel">
+      <HintPath>bin\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\ComponentArt.Web.UI.dll" />
+    <Content Include="bin\Debug\ComponentArt.Web.UI.dll" />
+    <Content Include="bin\Debug\Hennepin.SCWeb.Support.dll" />
+    <Content Include="bin\Debug\Hennepin.SCWeb.Support.pdb" />
+    <Content Include="bin\Debug\HtmlAgilityPack.dll" />
+    <Content Include="bin\Debug\ITHit.WebDAV.Server.dll" />
+    <Content Include="bin\Debug\Lucene.Net.dll" />
+    <Content Include="bin\Debug\Mvp.Xml.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="bin\Debug\RadEditor.Net2.dll" />
+    <Content Include="bin\Debug\Sitecore.Kernel.dll" />
+    <Content Include="bin\Debug\Sitecore.Kernel.xml" />
+    <Content Include="bin\Debug\Sitecore.Logging.dll" />
+    <Content Include="bin\Debug\Sitecore.NVelocity.dll" />
+    <Content Include="bin\Debug\Sitecore.Zip.dll" />
+    <Content Include="bin\Debug\Telerik.Web.UI.dll" />
+    <Content Include="bin\Debug\Telerik.Web.UI.xml" />
+    <Content Include="bin\Hennepin.SCWeb.Controls.dll" />
+    <Content Include="bin\Hennepin.SCWeb.Controls.pdb" />
+    <Content Include="bin\Hennepin.SCWeb.Extensions.dll" />
+    <Content Include="bin\Hennepin.SCWeb.HCCD.dll" />
+    <Content Include="bin\Hennepin.SCWeb.HCCD.pdb" />
+    <Content Include="bin\Hennepin.SCWeb.HYHH.dll" />
+    <Content Include="bin\Hennepin.SCWeb.HYHH.pdb" />
+    <Content Include="bin\Hennepin.SCWeb.Library.dll" />
+    <Content Include="bin\Hennepin.SCWeb.Library.pdb" />
+    <Content Include="bin\Hennepin.SCWeb.MHP.dll" />
+    <Content Include="bin\Hennepin.SCWeb.MHP.pdb" />
+    <Content Include="bin\Hennepin.SCWeb.Micro.dll" />
+    <Content Include="bin\Hennepin.SCWeb.Micro.pdb" />
+    <Content Include="bin\Hennepin.SCWeb.MicroTwo.dll" />
+    <Content Include="bin\Hennepin.SCWeb.MicroTwo.pdb" />
+    <Content Include="bin\Hennepin.SCWeb.Support.dll" />
+    <Content Include="bin\Hennepin.SCWeb.Support.pdb" />
+    <Content Include="bin\Hennepin.SCWeb.UserControls.dll" />
+    <Content Include="bin\Hennepin.SCWeb.UserControls.pdb" />
+    <Content Include="bin\HtmlAgilityPack.dll" />
+    <Content Include="bin\ITHit.WebDAV.Server.dll" />
+    <Content Include="bin\login.dll" />
+    <Content Include="bin\Lucene.Net.dll" />
+    <Content Include="bin\MSCaptcha.dll" />
+    <Content Include="bin\Mvp.Xml.dll" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\RadEditor.Net2.dll" />
+    <Content Include="bin\SharedSource.RedirectModule.dll" />
+    <Content Include="bin\Sitecore.Analytics.dll" />
+    <Content Include="bin\Sitecore.Apps.Loader.dll" />
+    <Content Include="bin\Sitecore.Automation.MarketingAutomation.dll" />
+    <Content Include="bin\Sitecore.Client.dll" />
+    <Content Include="bin\Sitecore.Client.XML" />
+    <Content Include="bin\Sitecore.ExternalLinkChecker.dll" />
+    <Content Include="bin\Sitecore.Forms.Core.dll" />
+    <Content Include="bin\Sitecore.Forms.Custom.dll" />
+    <Content Include="bin\Sitecore.Kernel.dll" />
+    <Content Include="bin\Sitecore.Kernel.xml" />
+    <Content Include="bin\Sitecore.Logging.dll" />
+    <Content Include="bin\Sitecore.Mvc.Analytics.dll" />
+    <Content Include="bin\Sitecore.Mvc.DeviceSimulator.dll" />
+    <Content Include="bin\Sitecore.Mvc.dll" />
+    <Content Include="bin\Sitecore.Mvc.ExperienceEditor.dll" />
+    <Content Include="bin\sitecore.nexus.dll" />
+    <Content Include="bin\Sitecore.NVelocity.dll" />
+    <Content Include="bin\Sitecore.Oracle.dll" />
+    <Content Include="bin\Sitecore.Publishing.WebDeploy.dll" />
+    <Content Include="bin\Sitecore.Rocks.Server.Core.dll" />
+    <Content Include="bin\Sitecore.Rocks.Server.dll" />
+    <Content Include="bin\Sitecore.Rocks.Server.Lucene.2313.dll" />
+    <Content Include="bin\Sitecore.Rocks.Server.Lucene.2941.dll" />
+    <Content Include="bin\Sitecore.Rocks.Server.Validation.dll" />
+    <Content Include="bin\Sitecore.Security.AntiCsrf.dll" />
+    <Content Include="bin\Sitecore.SegmentBuilder.dll" />
+    <Content Include="bin\Sitecore.Shell.MarketingAutomation.dll" />
+    <Content Include="bin\Sitecore.Update.dll" />
+    <Content Include="bin\Sitecore.Zip.dll" />
+    <Content Include="bin\Stimulsoft.Base.dll" />
+    <Content Include="bin\Stimulsoft.Database.dll" />
+    <Content Include="bin\Stimulsoft.Report.dll" />
+    <Content Include="bin\Stimulsoft.Report.Web.dll" />
+    <Content Include="bin\Stimulsoft.Report.WebDesign.dll" />
+    <Content Include="bin\System.Data.SQLite.dll" />
+    <Content Include="bin\Telerik.Web.UI.dll" />
+    <Content Include="bin\Telerik.Web.UI.Skins.dll" />
+    <Content Include="bin\Telerik.Web.UI.xml" />
+    <Content Include="bin\YAF.Sitecore.dll" />
+    <Content Include="bin\YAF.Sitecore.pdb" />
+    <Content Include="layouts\HYHH\hyhhAllStories.ascx" />
+    <Content Include="layouts\HYHH\hyhhHome.ascx" />
+    <Content Include="layouts\HYHH\hyhhMaster.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="layouts\HYHH\hyhhMetadata.ascx" />
+    <Content Include="layouts\HYHH\hyhhStory.ascx" />
+    <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="layouts\HYHH\hyhhAllStories.ascx.cs">
+      <DependentUpon>hyhhAllStories.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\HYHH\hyhhAllStories.ascx.designer.cs">
+      <DependentUpon>hyhhAllStories.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\HYHH\hyhhHome.ascx.cs">
+      <DependentUpon>hyhhHome.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\HYHH\hyhhHome.ascx.designer.cs">
+      <DependentUpon>hyhhHome.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\HYHH\hyhhMaster.aspx.cs">
+      <DependentUpon>hyhhMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\HYHH\hyhhMaster.aspx.designer.cs">
+      <DependentUpon>hyhhMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\HYHH\hyhhMetadata.ascx.cs">
+      <DependentUpon>hyhhMetadata.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\HYHH\hyhhMetadata.ascx.designer.cs">
+      <DependentUpon>hyhhMetadata.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\HYHH\hyhhStory.ascx.cs">
+      <DependentUpon>hyhhStory.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\HYHH\hyhhStory.ascx.designer.cs">
+      <DependentUpon>hyhhStory.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\ComponentArt.UIFramework.lic" />
+    <Content Include="bin\System.Data.SQLite.x32" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web.config" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49954</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49956/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
