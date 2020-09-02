@@ -120,8 +120,14 @@ namespace Hennepin.SCWeb.HYHH.layouts.HYHH
                 {
                     Item nodeItm = (Item)e.Item.DataItem;
                     //Text fldDate = (Text)e.Item.FindControl("fldDate");
+                    Literal litDate = (Literal)e.Item.FindControl("litDate");
+                    litDate.Text = "Hello World";
+                    //Literal eventDateFld = (Literal)e.Item.FindControl("eventDateFld");
+                    //eventDateFld.Text = scDateField.DateTime.ToString("MMM dd");
+                    Item storyItem = nodeItm.Parent;
+                    DateField nodeDateField = storyItem.Fields["Date"];
+                    litDate.Text = nodeDateField.DateTime.ToString("MMMM yyyy");
                     Text fldDescription = (Text)e.Item.FindControl("fldDescription");
-
                     //fldDate.Item = nodeItm;
                     fldDescription.Item = nodeItm;
                 }
