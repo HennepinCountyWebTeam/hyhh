@@ -22,8 +22,10 @@
                         <p>
                             <sc:Text ID="fldRollupSummary" runat="server" Field="Rollup Summary" />
                         </p>
-                        <span class="hyhh-read-story">Read Story
+                        <asp:Literal ID="litReadStory" runat="server">
+                            <span class="hyhh-read-story">Read Story
                             <img src="/hyhh-assets/images/read-story-arrow-blue.png" alt="Right pointing arrow" /></span>
+                        </asp:Literal>
                     </div>
                 </asp:HyperLink>
             </div>

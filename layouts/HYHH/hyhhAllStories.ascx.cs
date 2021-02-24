@@ -65,6 +65,7 @@ namespace Hennepin.SCWeb.HYHH.layouts.HYHH
 
                     Literal litFeatured = (Literal)e.Item.FindControl("litFeatured");
                     Literal litComingNext = (Literal)e.Item.FindControl("litComingNext");
+                    Literal litReadStory = (Literal)e.Item.FindControl("litReadStory");
                     string featuredText = string.Empty;
                     string comingNextText = string.Empty;
 
@@ -82,6 +83,7 @@ namespace Hennepin.SCWeb.HYHH.layouts.HYHH
                     {
                         comingNextText = "<h1 class=\"hyhh-story-callout-heading\">Coming Next</h1>";
                         litComingNext.Text = comingNextText;
+                        litReadStory.Visible = false;
 
                         //To remove later after coming next is fully implemented
                         //HyperLink storyLink = (HyperLink)e.Item.FindControl("storyLink");
